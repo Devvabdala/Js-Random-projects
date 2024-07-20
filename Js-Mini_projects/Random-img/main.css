@@ -1,0 +1,55 @@
+
+  /*css reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: grid;
+  place-items: center;
+}
+.container{
+  width:30%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+  margin-top: 10%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.3em;
+  height: 480px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+ #Myimage{
+ width:25%;
+ height: 400px;
+ border-radius: 0.5em;
+ margin-top: 1rem;
+ position: absolute;
+} 
+h2{
+  font-family: 'Comfortaa', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Questrial', sans-serif;
+  font-size: 4rem;
+  margin-bottom:40rem;
+}
+
+button{
+    margin-top: 1rem;
+    border: none;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding: 14px 15px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #f6b912;
+    border-bottom: 2pxrgb(252, 11, 11)#000000;
+    position: absolute;
+    top:74%;
+    cursor: pointer;
+}

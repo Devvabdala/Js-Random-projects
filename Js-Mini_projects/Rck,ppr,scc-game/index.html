@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game-js</title>
+<link rel="stylesheet" href="main.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="center">
+       <p>START GAME</p>
+       <h2>Choose One</h2>
+       <button onclick="
+       let computer;
+       let random = Math.floor(Math.random()*3);
+       if (random === 1){
+        computer = 'Rock';
+       }else if(random === 2){
+        computer = 'Paper'
+       }else{
+        computer = 'Scissors'
+       }
+       //comparision//
+       let Result ='';
+       if(computer === 'rock'){
+        Result= 'its tie!'
+       }else if(computer === 'Paper'){
+        Result='You lose!'
+       }else{
+        Result='You win'
+       }
+        alert(`Your choice Paper Computer Choice ${computer} Result: ${Result}`);
+       ">🥌</button>
+       <button
+         onclick="
+
+       let Computer;
+       let Random = Math.floor(Math.random()*3);
+       if (Random === 1){
+        computer = 'Rock';
+       }else if(Random === 2){
+        computer = 'Paper'
+       }else{
+        computer = 'Scissors'
+       }
+       //comparision//
+       let result ='';
+       if(computer === 'Paper'){
+        result= 'its tie!'
+       }else if(computer === 'Rock'){
+        result='You Win'
+       }else{
+        result='You Lose!'
+       }
+        alert(`Your choice Paper Computer Choice ${computer} Result: ${result}`);
+         "
+       >🖐</button>
+       <button
+       onclick="
+        let Commputer;
+       let Ranndom = Math.floor(Math.random()*3);
+       if (Ranndom === 1){
+        commputer = 'Rock';
+       }else if(Ranndom === 2){
+        commputer = 'Paper'
+       }else{
+        computer = 'Scissors'
+       }
+       //comparision//
+       let ressult ='';
+       if(computer === 'Scissors'){
+        ressult= 'its tie!'
+       }else if(computer === 'Rock'){
+        ressult='You Lose!'
+       }else{
+        ressult='You Win!'
+       }
+        alert(`Your choice Scissors Computer Choice ${computer} Result: ${ressult}`);
+         "
+       ">✂</button>
+     </div>
+   </div>
+  <script src="main.js"></script>
+</body>
+</html>
